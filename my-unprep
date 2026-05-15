@@ -1,0 +1,15 @@
+asdsad
+
+sequential 
+
+a b c d e f
+
+everyone can force push ( aka re-write history commit)
+
+scenario P -> 4 commits origin/main
+         X -> not fetch yet / main / no 4 commits 
+         X -> add 1 commit 
+
+         origin/main a / b c d e
+         origin/main a z 
+         force push ->  a z  bcde ? 
